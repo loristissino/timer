@@ -1,8 +1,10 @@
 #!/bin/bash
 
+FORMAT='%s %T'
+
 while true
 	do
-		date
+		date +"$FORMAT"
 		sleep 1
 	done
 
