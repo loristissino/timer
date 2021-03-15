@@ -1,9 +1,8 @@
 #!/bin/bash
 
-
 trap 'source timer.conf' SIGHUP
 
-source timer.conf 
+kill -SIGHUP $$ 
 
 while true
 	do
