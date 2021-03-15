@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FORMAT='%s %T'
+source timer.conf 
 
 while true
 	do
